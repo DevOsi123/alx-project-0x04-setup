@@ -20,7 +20,6 @@ const counterApp:React.FC =()=>{
             <p className="text-lg font-medium mb-4">
                 Current count: {count} {count=== 0 ? "🙈 No clicks yet!" : count % 10 === 0 && count !== 0 ? "🔥 You're on fire!" : ""}
             </p>
-
             {/* Counter Display */}
       <div className="text-6xl font-bold mb-8">
         {count}
